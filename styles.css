@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a38787;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    }
+    #titulo {
+    font-size: 24px;
+    margin-bottom: 20px;
+    }
+    #caixaPerguntas {
+    font-size: 18px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px; /* Limita a largura máxima da caixa de perguntas */
+    text-align: center;
+    }
+    #alternativas {
+    width: 100%;
+    max-width: 600px; /* Limita a largura máxima das alternativas */
+    }
+    #alternativas button {
+    width: 100%; /* Adiciona largura total aos botões */
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #ff0e0e;
+    color: rgb(233, 10, 10)
+    border: none;
+    cursor: pointer;
+    text-align: center; /* Centraliza o texto */
+    box-sizing: border-box; /* Inclui padding e borda na largura total */
+    }
+    #alternativas button:hover {
+    background-color: #DA70D63;
+    }
